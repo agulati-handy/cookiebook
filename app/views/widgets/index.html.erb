@@ -1,0 +1,10 @@
+<div class="grid-x">
+  <div class="cell">
+    <h1>Index</h1>
+  </div>
+  <% @widgets.each do |w| %>
+    <div class="cell">
+      <%= link_to "Widget #{w}", widget_path(w) %>
+    </div>
+  <% end %>
+</div>
