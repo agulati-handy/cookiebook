@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Make sure you have Ruby 2.5.1 installed
 
-Things you may want to cover:
+* Install the latest bundler by running `gem install bundler`
 
-* Ruby version
+* Clone the repo
 
-* System dependencies
+* Run `bundle install`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* To run the server (port 3000) run `bundle exec rails s`
